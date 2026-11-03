@@ -28,3 +28,24 @@ This repository documents a simulated IT support home lab using Jira Service Man
 **Scenario:** A Sales employee received an “Access denied” error when opening the shared folder.
 
 **Work completed:** Investigated the folder path, connection
+## Device life cycle project
+
+Created and maintained a home-lab device inventory for a MacBook Pro and Dell Latitude 7480 Windows laptop.
+
+### Work completed
+
+- Assigned asset tags and safe placeholder serial numbers
+- Recorded device owner, department, status, and inventory dates
+- Performed Mac and Windows software-update checks
+- Documented a pending Windows security-update finding in Jira
+- Tracked the maintenance assessment through resolution
+
+### Skills demonstrated
+
+- Device inventory and asset tracking
+- Mac and Windows endpoint support
+- Software-update assessment
+- Security-update documentation
+- IT maintenance ticket handling
+
+The inventory uses real home-lab devices with safe placeholder serial numbers. The Windows update assessment documented pending security updates; it does not claim that the updates were installed.
