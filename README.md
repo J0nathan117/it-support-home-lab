@@ -1,69 +1,76 @@
-# it-support-home-lab
+# IT Support Home Lab
 
+Hands-on IT support portfolio demonstrating ticket handling, device inventory, Windows endpoint maintenance, and Active Directory identity management in a controlled home-lab environment.
 
-This repository documents a simulated IT support home lab using Jira Service Management. It demonstrates how I manage support tickets from request through investigation, resolution, and closure.
+> All tickets and user accounts shown are simulated for learning and portfolio purposes. Device serial numbers use safe placeholder values.
 
-## Skills demonstrated
+## Technical skills demonstrated
 
-- Ticket prioritization based on impact and urgency
-- Internal documentation and troubleshooting notes
-- Identity and access management requests
-- New employee onboarding and device assignment
-- Password-reset process and identity verification
-- Escalation to Tier 2 support
-- Resolution verification and ticket closure
+- Jira Service Management ticket triage, prioritization, internal notes, escalation, and closure
+- Windows and macOS endpoint support, software-update assessment, and device inventory tracking
+- Windows Server, Hyper-V, Active Directory Domain Services, organizational units, users, and security groups
+- Identity lifecycle administration: provisioning, group-based access, and account deactivation
+- Clear technical documentation and resolution verification
 
-## Ticket life cycle project
+## Project portfolio
 
-### 1. New employee onboarding — Jordan Smith
+| Project | What I completed | Evidence |
+| --- | --- | --- |
+| [Ticket life cycle](#1-ticket-life-cycle) | Created, prioritized, documented, escalated, resolved, and closed support tickets in Jira. | [Screenshots](screenshots/ticket-lifecycle) |
+| [Device life cycle](#2-device-life-cycle) | Maintained a home-lab device inventory and recorded macOS and Windows update assessments. | [Screenshots](screenshots/device-lifecycle) |
+| [Identity life cycle](#3-identity-life-cycle) | Built an Active Directory lab and managed user access from onboarding through offboarding. | [Screenshots](screenshots/identity-lifecycle) |
 
-**Scenario:** A new Sales employee needs an account, Sales shared-folder access, and a configured laptop.
+## 1. Ticket life cycle
 
-**Work completed:** Documented the request, assessed priority, simulated account and device provisioning, verified sign-in and shared-folder access, and closed the ticket as completed.
+**Tools:** Jira Service Management
 
-**Skills shown:** Identity life cycle, device life cycle, onboarding documentation, access verification, and ticket closure.
+Created three simulated support tickets and moved each through investigation, documentation, resolution, and closure.
 
-### 2. Sales shared-folder access issue — Priya Patel
+- **New employee onboarding - Jordan Smith:** documented account, shared-folder, and laptop provisioning with verification of sign-in and access.
+- **Sales shared-folder access - Priya Patel:** prioritized a business-impacting access issue, documented troubleshooting, escalated to Tier 2, and verified the resolution.
+- **Password reset - Alex Cruz:** documented identity verification, password-reset handling, and successful sign-in confirmation.
 
-**Scenario:** A Sales employee received an “Access denied” error when opening the shared folder.
+**Skills shown:** prioritization, troubleshooting notes, escalation, user access support, resolution verification, and ticket closure.
 
-**Work completed:** Investigated the folder path, connection
-## Device life cycle project
+[View ticket-life-cycle evidence](screenshots/ticket-lifecycle)
 
-Created and maintained a home-lab device inventory for a MacBook Pro and Dell Latitude 7480 Windows laptop.
+## 2. Device life cycle
 
-### Work completed
+**Tools:** Google Sheets, Jira Service Management, macOS, Windows
 
-- Assigned asset tags and safe placeholder serial numbers
-- Recorded device owner, department, status, and inventory dates
-- Performed Mac and Windows software-update checks
-- Documented a pending Windows security-update finding in Jira
-- Tracked the maintenance assessment through resolution
+Maintained a device inventory for a MacBook Pro and Dell Latitude 7480, using asset tags and placeholder serial numbers.
 
-### Skills demonstrated
+- Recorded device owner, department, status, assignment date, and maintenance notes.
+- Performed and documented a macOS software-update assessment.
+- Performed and documented a Windows security-update assessment.
+- Created and closed a Jira maintenance-assessment ticket for the Windows device.
 
-- Device inventory and asset tracking
-- Mac and Windows endpoint support
-- Software-update assessment
-- Security-update documentation
-- IT maintenance ticket handling
+**Skills shown:** asset tracking, endpoint support, macOS and Windows update assessment, maintenance documentation, and ticket handling.
 
-The inventory uses real home-lab devices with safe placeholder serial numbers. The Windows update assessment documented pending security updates; it does not claim that the updates were installed.
-## Identity life cycle project
+[View device-life-cycle evidence](screenshots/device-lifecycle)
 
-Built a Windows Server Active Directory home lab using Hyper-V.
+## 3. Identity life cycle
 
-### Work completed
-- Created the `identitylab.local` domain
-- Created a Sales organizational unit and `Sales-Shared-Access` security group
-- Provisioned the LeBron Smith user account and assigned group-based access
-- Created and disabled the Alex Cruz account to document offboarding
-- Documented the work in a completed Jira ticket
+**Tools:** Hyper-V, Windows Server, Active Directory Domain Services, Jira Service Management
 
-### Skills demonstrated
-- Windows Server and Hyper-V administration
-- Active Directory Domain Services
-- User provisioning and deprovisioning
-- Organizational units and security groups
-- Group-based access control
-- Identity life-cycle documentation
+Built the `identitylab.local` Active Directory domain in Hyper-V and documented a realistic user-access workflow.
+
+- Created the **Sales** organizational unit and the `Sales-Shared-Access` security group.
+- Provisioned **LeBron Smith** and assigned access through the Sales security group.
+- Created and disabled **Alex Cruz** to document an offboarding action.
+- Created and completed a Jira ticket documenting the identity lifecycle work.
+
+**Skills shown:** Windows Server administration, Active Directory, user provisioning, organizational units, security groups, group-based access control, and account deactivation.
+
+[View identity-life-cycle evidence](screenshots/identity-lifecycle)
+
+## Repository structure
+
+```text
+it-support-home-lab/
+├── README.md
+└── screenshots/
+    ├── ticket-lifecycle/
+    ├── device-lifecycle/
+    └── identity-lifecycle/
+```
