@@ -49,3 +49,21 @@ Created and maintained a home-lab device inventory for a MacBook Pro and Dell La
 - IT maintenance ticket handling
 
 The inventory uses real home-lab devices with safe placeholder serial numbers. The Windows update assessment documented pending security updates; it does not claim that the updates were installed.
+## Identity life cycle project
+
+Built a Windows Server Active Directory home lab using Hyper-V.
+
+### Work completed
+- Created the `identitylab.local` domain
+- Created a Sales organizational unit and `Sales-Shared-Access` security group
+- Provisioned the LeBron Smith user account and assigned group-based access
+- Created and disabled the Alex Cruz account to document offboarding
+- Documented the work in a completed Jira ticket
+
+### Skills demonstrated
+- Windows Server and Hyper-V administration
+- Active Directory Domain Services
+- User provisioning and deprovisioning
+- Organizational units and security groups
+- Group-based access control
+- Identity life-cycle documentation
