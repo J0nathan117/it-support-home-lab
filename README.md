@@ -11,6 +11,7 @@ Hands-on entry-level IT support portfolio: Jira Service Management ticket handli
 - Windows Server, Hyper-V, Active Directory Domain Services, organizational units, users, and security groups
 - Identity life cycle: provisioning, group-based access, and account deactivation
 - Clear technical documentation and resolution verification
+- SQL Server, SSMS, T-SQL queries, data-quality troubleshooting, and read-only permissions
 
 ## Projects at a glance
 
@@ -19,6 +20,7 @@ Hands-on entry-level IT support portfolio: Jira Service Management ticket handli
 | [1. Ticket life cycle](#1-ticket-life-cycle) | Created, prioritized, documented, escalated, resolved, and closed three support tickets | Jira Service Management |
 | [2. Device life cycle](#2-device-life-cycle) | Kept a device inventory and documented macOS and Windows update assessments | Google Sheets, Jira, macOS, Windows |
 | [3. Identity life cycle](#3-identity-life-cycle) | Built an Active Directory domain and managed a user from onboarding to offboarding | Hyper-V, Windows Server, AD DS, Jira |
+| [4. SQL application support lab](application-support-sql-lab) | Built and troubleshot a SQL Server database, including data-quality, permissions, and connection scenarios | SQL Server Express, SSMS, T-SQL |
 
 ---
 
@@ -74,11 +76,28 @@ Hands-on entry-level IT support portfolio: Jira Service Management ticket handli
 
 ---
 
+## 4. SQL application support lab
+
+**Goal:** Practice the database troubleshooting and validation work common in application support.
+
+- Built a SQL Server database for simulated customer, product, quote, and order records.
+- Used joins, filters, summaries, inserts, updates, and duplicate-record detection.
+- Investigated and resolved a simulated order-total mismatch, then verified no mismatches remained.
+- Tested read-only access and documented a SQL Server connection error.
+
+**Skills shown:** SQL Server, SSMS, T-SQL, data quality, record correction, least-privilege access, connection troubleshooting, and verification.
+
+[View the SQL application support lab](application-support-sql-lab)
+
+---
+
 ## Repository structure
 
 ```
 it-support-home-lab/
 ├── README.md
+├── application-support-sql-lab/
+│   └── README.md
 └── screenshots/
     ├── ticket-lifecycle/
     ├── device-lifecycle/
