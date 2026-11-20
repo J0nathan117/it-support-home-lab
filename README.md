@@ -1,8 +1,8 @@
 # IT Support Home Lab
 
-Hands-on entry-level IT support portfolio: Jira Service Management ticket handling, device inventory and update assessments, and Windows Server Active Directory identity management in Hyper-V.
+Hands-on entry-level IT support portfolio: Jira Service Management ticket handling, device inventory and update assessments, Windows Server Active Directory identity management in Hyper-V, SQL application support, and Windows/network diagnostics.
 
-> All tickets, users, and devices are simulated for learning and portfolio purposes. Serial numbers are placeholders.
+> Portfolio exercises use simulated support scenarios and test users. Endpoint assessments also use personally owned home-lab devices. Serial numbers are placeholders.
 
 ## Skills demonstrated
 
@@ -13,6 +13,8 @@ Hands-on entry-level IT support portfolio: Jira Service Management ticket handli
 - Clear technical documentation and resolution verification
 - SQL Server, SSMS, T-SQL queries, data-quality troubleshooting, and read-only permissions
 
+- Windows network diagnostics: ping, DNS lookup, TCP port tests, adapter/service status, and firewall profiles
+
 ## Projects at a glance
 
 | Project | What I completed | Tools |
@@ -21,6 +23,7 @@ Hands-on entry-level IT support portfolio: Jira Service Management ticket handli
 | [2. Device life cycle](#2-device-life-cycle) | Kept a device inventory and documented macOS and Windows update assessments | Google Sheets, Jira, macOS, Windows |
 | [3. Identity life cycle](#3-identity-life-cycle) | Built an Active Directory domain and managed a user from onboarding to offboarding | Hyper-V, Windows Server, AD DS, Jira |
 | [4. SQL application support lab](application-support-sql-lab) | Built and troubleshot a SQL Server database, including data-quality, permissions, and connection scenarios | SQL Server Express, SSMS, T-SQL |
+| [5. Windows + network troubleshooting lab](windows-network-troubleshooting-lab) | Assessed connectivity, DNS, TCP port 443, adapters, services, firewall profiles, and documented findings | Windows, Command Prompt, PowerShell, Jira |
 
 ---
 
@@ -91,13 +94,25 @@ Hands-on entry-level IT support portfolio: Jira Service Management ticket handli
 
 ---
 
+## 5. Windows + network troubleshooting lab
+
+Assessed a Windows laptop's network connectivity, compared successful and deliberately failed DNS lookups, tested TCP port 443, and inspected adapter, Wi-Fi service, firewall, and active network profile status. Recorded findings and closure in Jira ticket IT-6. No connectivity fault was identified and no repair was required.
+
+[View the Windows + network troubleshooting lab and 12 screenshots](windows-network-troubleshooting-lab)
+
+---
+
 ## Repository structure
 
 ```
 it-support-home-lab/
 ├── README.md
 ├── application-support-sql-lab/
-│   └── README.md
+│   ├── README.md
+│   └── screenshots/
+├── windows-network-troubleshooting-lab/
+│   ├── README.md
+│   └── screenshots/
 └── screenshots/
     ├── ticket-lifecycle/
     ├── device-lifecycle/
